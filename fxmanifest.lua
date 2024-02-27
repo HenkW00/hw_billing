@@ -2,7 +2,7 @@ fx_version 'adamant'
 game 'gta5'
 
 author 'HenkW'
-description 'Billing script using okokNotify'
+description 'hw_billing'
 version '1.0.0'
 
 ui_page 'web/ui.html'
@@ -19,7 +19,8 @@ client_scripts {
 
 server_scripts {
 	'@mysql-async/lib/MySQL.lua',
-	'server.lua'
+	'server.lua',
+	'version.lua'
 }
 
 shared_script '@es_extended/imports.lua'

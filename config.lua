@@ -2,6 +2,8 @@ Config = {}
 
 -------------------------- COMMANDS & FUNCTIONALITY
 
+Config.checkForUpdates = true
+
 Config.InvoicesCommand = 'factuur' -- Command used to open the invoices menu
 
 Config.VATPercentage = 23 -- Visual only, it won't influence the final invoice value, change it to your country VAT value
@@ -21,7 +23,8 @@ Config.OnlyBossCanAccessSocietyInvoices = true -- Defines if only the boss can a
 
 Config.AllowedSocieties = { -- Allowed societies to open the 'Society Invoices' and 'Create Invoice' menus
 	'police',
-	'ambulance'
+	'ambulance',
+	'whitewidow'
 }
 
 -------------------------- DISCORD LOGS
