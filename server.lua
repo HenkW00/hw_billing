@@ -1,6 +1,6 @@
 ESX = exports["es_extended"]:getSharedObject()
 
-local Webhook = 'https://discord.com/api/webhooks/1204866486393503764/JBxnLOQewhCXRbpkIXjxigtJq8DO2NVuWU9bW5Ispk8pmDUefISFUZm22A0TGXo-PUHQ'
+local Webhook = 'https://discord.com/api/webhooks/1211860504499458150/WxFR88AFwaq0XxhRm7Mjq95PgC6oiTKQES6oTmwEaHy8qXyMGzGkHb0Y_Wf0q1f0V4FH'
 local limiteTimeHours = Config.LimitDateDays*24
 local hoursToPay = limiteTimeHours
 local whenToAddFees = {}
