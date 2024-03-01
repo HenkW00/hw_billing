@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'HenkW'
 description 'ESX Advanced billing system'
-version '1.0.1'
+version '1.0.2'
 
 ui_page 'web/ui.html'
 
