@@ -2,7 +2,7 @@ fx_version 'adamant'
 game 'gta5'
 
 author 'HenkW'
-description 'hw_billing'
+description 'ESX Advanced billing system'
 version '1.0.1'
 
 ui_page 'web/ui.html'
